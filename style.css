@@ -1,18 +1,23 @@
 body{
-    background-image: linear-gradient(to right, skyblue, purple);
+    background-color: rgb(52, 86, 139);
 }
 #Title{
     display: block;
     margin:auto;
     font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     text-align: center;
 
-    background-color: white;
-    color:purple;
+    background-color: rgb(52, 86, 139);
+    color:white;
     border: none;
     cursor:pointer;
     
+}
+
+.dropdown{
+    background-color: rgb(52, 86, 139);
+    color:white;
 }
 
 .dropdown a{
@@ -20,7 +25,7 @@ body{
     width:166.6px;
     margin:auto;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     text-align: center;
     display:none; 
 }
@@ -29,3 +34,8 @@ body{
     display:block;
 }
 
+#Game1{
+    font-family: monospace;
+    color:white;
+    font-size: 24px;
+}
