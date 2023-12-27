@@ -1,23 +1,25 @@
 body{
-    background-color: rgb(52, 86, 139);
+    /*background-color: rgb(52, 86, 139);*/
+    background-color: beige;
 }
 #Title{
     display: block;
     margin:auto;
-    font-size: 32px;
-    font-family: monospace;
+    font-size: 46px;
+    font-family: Century Gothic;
+    font-weight: bold;
     text-align: center;
 
-    background-color: rgb(52, 86, 139);
-    color:white;
+    background-color: beige;
+    color:rgb(204, 85, 0);
+    text-shadow: 5px 5px 5px rgb(204, 85, 0);
     border: none;
     cursor:pointer;
-    
 }
 
 .dropdown{
-    background-color: rgb(52, 86, 139);
-    color:white;
+    background-color: beige;
+    color:rgb(204, 85, 0);
 }
 
 .dropdown a{
@@ -25,7 +27,7 @@ body{
     width:166.6px;
     margin:auto;
     font-size: 24px;
-    font-family: monospace;
+    font-family: Century Gothic;
     text-align: center;
     display:none; 
 }
@@ -35,13 +37,22 @@ body{
 }
 
 #Game1{
-    font-family: monospace;
-    color:white;
+    font-family: Century Gothic;
+    color:rgb(204, 85, 0);
     font-size: 24px;
 }
 
 #Game2{
-    font-family: monospace;
-    color:white;
+    font-family: Century Gothic;
+    color:rgb(204, 85, 0);
     font-size: 24px;
+}
+
+#textBox{
+    display:block;
+    font-size: 32px;
+    color:rgb(0, 163, 108);
+    font-family: Century Gothic;
+    text-align: center;
+    transform: rotate(-45deg);
 }
