@@ -56,6 +56,7 @@ body{
     text-align: center;
     animation-name: rotate;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rotate{
