@@ -54,5 +54,10 @@ body{
     color:rgb(0, 163, 108);
     font-family: Century Gothic;
     text-align: center;
-    transform: rotate(-45deg);
+    animation-name: rotate;
+    animation-duration: 4s;
+}
+
+@keyframes rotate{
+    100%{transform: rotateZ(360deg)}
 }
