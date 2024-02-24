@@ -63,7 +63,7 @@ body{
     100%{transform: rotateZ(360deg)}
 }
 
-#2ndlink{
+#link{
     font-family: Century Gothic;
     color:rgb(204, 85, 0);
     font-size: 24px;
