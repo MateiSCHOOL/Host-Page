@@ -62,3 +62,10 @@ body{
 @keyframes rotate{
     100%{transform: rotateZ(360deg)}
 }
+
+#2ndlink{
+    font-family: Century Gothic;
+    color:rgb(204, 85, 0);
+    font-size: 24px;
+    text-align: center;
+}
